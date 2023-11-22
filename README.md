@@ -7,7 +7,7 @@ Classfier targets on implementation of linear models for regressions. It is basi
 The dataset given is Pima Indians Diabetes Database to predict the onset of diabetes based on diagnostic measures provided. Data is split into categories for training and testing of 614 for train size and 154 test sizes constituting 80% and 20% of data set.
 
 ### Implementation:
-Implementation was done in Google Colab.
+Implementation was done in [Google Colab Notebook](https://github.com/meetgurudev/CSE574_IntroToML/blob/main/main.ipynb)
 #### Part A: Implementation of Logistic Regression.
 ***
 
