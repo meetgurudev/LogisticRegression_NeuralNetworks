@@ -1,8 +1,7 @@
-# CSE574_IntroToML_LogisticRegression
-## Assignment 1
+# IntroToML_LogisticRegression
 
-### Assignment Overview:
-Assignment targets on implementation of linear models for regressions. It is basically 2 parts which concentrates on classification problems. That is to implement Logistic Regression using stochastic gradient descent. Further for the second part, it focuses on implementation of Neural Networks with two hidden layers with different regularization methods (l2, l1). The above implementations need to be executed over the give data set.
+### Classfier Overview:
+Classfier targets on implementation of linear models for regressions. It is basically 2 parts which concentrates on classification problems. That is to implement Logistic Regression using stochastic gradient descent. Further for the second part, it focuses on implementation of Neural Networks with two hidden layers with different regularization methods (l2, l1). The above implementations need to be executed over the give data set.
     
 ### Dataset:
 The dataset given is Pima Indians Diabetes Database to predict the onset of diabetes based on diagnostic measures provided. Data is split into categories for training and testing of 614 for train size and 154 test sizes constituting 80% and 20% of data set.
