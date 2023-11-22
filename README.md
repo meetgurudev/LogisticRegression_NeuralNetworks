@@ -17,17 +17,20 @@ Logistic Regression is one of the simplest and commonly used ML algorithm approa
 Dataset from csv is taken and implemented # Now since we want the valid and test size to be equal `(20% each of overall data)`. # we have to define `valid_size=0.5 (that is 50% of remaining data)`. A new class LogisticRegressionModel is introduced which internally implements all the following concepts to train and test the data. After initialization of the class, I called alog_fit method to validate the fit and predict method to trigger the classification model.
 
 #### 2. Sigmoid Function: 
-Sigmoid function is used to classify the binary dataset. It can be shown as `sigmoid (z) = 1/(1/e^-z)` *where z is the linear classification function that needed to be applied for*. Hence the value is bound between 0 and 1 such that, if the resultant value is greater than 0.5, the output is displayed as 1 else 0.
+Sigmoid function is used to classify the binary dataset. It can be shown as `sigmoid (z) = 1/(1/e^-z)` *where z is the linear classification function that needed to be applied for*. 
+Hence the value is bound between *0 and 1 such that, if the resultant value is greater than 0.5, the output is displayed as 1 else 0.*
 Code Implementation
 
 #### 3. Cost Function:
-Cost function is basically the error displayed by the model with respect to the predicted value. To achieved good model, the cost function error rate must be reduced to lowest i.e., attaining global minima. 
+Cost function is basically the error displayed by the model with respect to the predicted value. To achieved good model, the cost function error rate must be reduced to lowest ***i.e., attaining global minima.*** 
 
 #### 4. Forward and Back Propagation:
 The weights and bias are to be updated to reduce the error rate. Hence, we need to use forward and backward propagation in the model to  
 
 #### 5. Gradient Descent 
-Training the model such that the weights and bias must be achieved to optimal value where the error rate is low and close to global minima. To achieve this, the formula for calculation of updated weights is `W = (Ypred - Y)*X`. Where Ypred is the predicted output and X is the given features in the input matrix. Which can be calculated by applying sigmoid to the given function. And similarly, Bias can be calculated by `B = (Ypred - Y)`.
+Training the model such that the weights and bias must be achieved to optimal value where the error rate is low and close to global minima. 
+To achieve this, the formula for calculation of updated weights is `W = (Ypred - Y)*X`. Where Ypred is the predicted output and X is the given features in the input matrix. 
+Which can be calculated by applying sigmoid to the given function. And similarly, Bias can be calculated by `B = (Ypred - Y)`.
 
 #### 6. Prediction:
 I then called the model to predict the functions
