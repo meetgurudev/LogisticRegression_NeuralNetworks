@@ -1,4 +1,4 @@
-# IntroToML_LogisticRegression
+# LogisticRegression
 
 ### Classfier Overview:
 Classfier targets on implementation of linear models for regressions. It is basically 2 parts which concentrates on classification problems. That is to implement Logistic Regression using stochastic gradient descent. Further for the second part, it focuses on implementation of Neural Networks with two hidden layers with different regularization methods (l2, l1). The above implementations need to be executed over the give data set.
@@ -8,6 +8,7 @@ The dataset given is Pima Indians Diabetes Database to predict the onset of diab
 
 ### Implementation:
 Implementation was done in [Google Colab Notebook](https://github.com/meetgurudev/CSE574_IntroToML/blob/main/main.ipynb)
+
 #### Part A: Implementation of Logistic Regression.
 ***
 
@@ -44,7 +45,7 @@ The following intermediatory outputs shows while training and testing the regres
 #### 8. Conclusion:
 > So I tried to implement regressor_2 to our test data with `learning_rate=0.01` with number of iterations of 1000, **I got an accuracy of 81.81%.**
 
-### PART 2: Implementation of Neural Networks
+# Neural Networks
 ***
    
 * For Neural Networks upon implementing baseline mode with `2 hidden layers having 32 and 16 units`, I got the accuracy as `76.54%`.
